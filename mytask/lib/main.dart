@@ -4,7 +4,7 @@ import 'tugas5.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await GetStorage.init(); // wajib sebelum pakai storage
+  await GetStorage.init(); 
 
   runApp(const MyApp());
 }
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Test Storage',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 156, 168, 255)),
         useMaterial3: true,
       ),
       home: const PendaftaranPage(),
