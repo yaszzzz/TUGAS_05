@@ -22,7 +22,7 @@ class _PendaftaranPageState extends State<PendaftaranPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Pendaftaran Pengguna')),
+      appBar: AppBar(title: const Text('REGISTER')),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Form(
